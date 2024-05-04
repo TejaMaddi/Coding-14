@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.h1 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #a35200;
+  text-align: center;
+}
+.p1 {
+  margin-top: 10px;
+  color: #334155;
+  font-size: 17px;
+  font-weight: bold;
+}
+.i1 {
+  margin-top: 15px;
+  height: 150px;
+  width: 150px;
+}
+.btn1 {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #f9d423;
+  color: #a35200;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.results-container {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.p2 {
+  color: #475569;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.p3{
+    color: #475569;
+  font-weight: bold;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .results-container {
+    display: flex;
+  }
+  .p3{
+    font-size: 22px;
+  }
+  .p2 {
+    margin-left: 30px;
+    font-size: 22px;
+  }
+  .h1{
+    font-size: 50px;
+  }
+  .p1{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .i1{
+    height: 240px;
+    width: 240px;
+  }
+  .btn1{
+    font-size: 20px;
+    margin-top: 30px;
+     padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  }
+}
